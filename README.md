@@ -6,8 +6,25 @@ Arrête de perdre 3h sur chaque deck investisseur / COMEX. Arrête d'envoyer des
 
 Par [AI Makers](https://aimakers.fr) — cabinet de transformation IA.
 
-> 📖 **Tu veux la méthode complète avant d'installer ?** Lis le playbook gratuit (25 min) :
+> 📖 **Tu veux la méthode complète avant d'installer ?** Lis le playbook gratuit (35 min) :
 > 👉 **[Le Playbook Deck AI-First](https://acute-licorice-d94.notion.site/Le-Playbook-Deck-AI-First-34cc2daa75c781fd8568cd21b285f03d)** — les 10 prompts, les 14 tactiques niveau pro, la méthode d'injection de charte à 3 niveaux, la FAQ.
+
+---
+
+## 🎬 Le résultat — 3 slides du deck démo
+
+Voilà ce que `npm run demo` produit en 5 secondes (charte AI Makers : AI Blue #2563EB + Inter) :
+
+**Slide 1 — Cover (fond sombre, overline AI Blue)**
+![Deck cover](assets/screenshots/slide-01-cover.png)
+
+**Slide 2 — Hero number (1 chiffre massif = 1 message)**
+![Hero number](assets/screenshots/slide-02-hero-number.png)
+
+**Slide 3 — Three bullets + data callout (structure Minto)**
+![Three bullets](assets/screenshots/slide-03-three-bullets.png)
+
+Pas de "AI look" Gamma. Pas de template générique. Juste ta charte, ton logo, tes slides.
 
 ---
 
@@ -37,7 +54,11 @@ cp charte-graphique.example.json charte-graphique.json
 
 Recharge Claude Code → les 3 skills sont disponibles : `/deck-story`, `/deck-build`, `/deck-review`.
 
-**Prérequis :** Node.js 18+, Claude Code installé ([doc](https://docs.anthropic.com/en/docs/claude-code)).
+**Prérequis :** Node.js 18+, Claude Code installé ([doc](https://docs.anthropic.com/en/docs/claude-code)), testé avec Claude Code ≥ 1.0.
+
+> 👤 **Tu es non-tech et tu veux déléguer à ton dev ?** Copie-colle cet email :
+>
+> *"Salut — installe-moi ce repo dans `~/.claude/skills/deck` : https://github.com/othmane-droid/claude-deck-skills — prérequis Node 18+ et Claude Code. Étapes dans le README (install en 1 commande + `npm run demo` pour valider). Ping-moi quand la démo génère un .pptx sans erreur. Merci."*
 
 ---
 
@@ -125,6 +146,20 @@ Le repo embarque aussi les 10 prompts testés du [Playbook Deck AI-First](https:
 | Pre-wire strategy | ✅ | ❌ |
 | Reproductible en volume | ✅ | ❌ |
 | Gratuit, open-source, forkable | ✅ (MIT) | ❌ |
+
+---
+
+## 🚨 Ça marche pas ? (troubleshooting express)
+
+| Problème | Fix en 30 secondes |
+|---|---|
+| `Cannot find module 'pptxgenjs'` | `cd` dans le dossier du repo puis `npm install` |
+| Le `.pptx` se génère mais sans logo | Normal si `charte.logo.chemin` = `null`. Ajoute un logo dans `./assets/` et renseigne le chemin dans `charte-graphique.json` |
+| `Font 'Inter' not available` | Installer [Inter via Google Fonts](https://fonts.google.com/specimen/Inter) sur ton système ou remplacer par `"Arial"` dans la charte |
+| Les skills `/deck-*` ne sont pas détectés par Claude Code | Vérifier que le dossier est bien cloné dans `~/.claude/skills/` et relancer Claude Code |
+| Le deck généré est vide | `npm run demo` d'abord pour valider l'install avant de brancher ta vraie charte |
+
+Plus de cas → voir [docs/install.md](docs/install.md).
 
 ---
 

@@ -31,8 +31,9 @@
     "overline_letter_spacing": 3
   },
   "logo": {
-    "chemin": "./assets/logo.png",
-    "chemin_blanc": "./assets/logo-blanc.png",
+    "_comment": "Dépose ton logo PNG dans ./assets/ et mets à jour le chemin. Laisser null si tu veux tester sans logo (les decks seront générés sans marquage logo).",
+    "chemin": null,
+    "chemin_blanc": null,
     "largeur_cm": 2.5
   },
   "mots_a_bannir": [
