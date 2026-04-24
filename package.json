@@ -23,11 +23,11 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/aimakers/claude-deck-skills.git"
+    "url": "https://github.com/othmane-droid/claude-deck-skills.git"
   },
-  "homepage": "https://github.com/aimakers/claude-deck-skills#readme",
+  "homepage": "https://github.com/othmane-droid/claude-deck-skills#readme",
   "bugs": {
-    "url": "https://github.com/aimakers/claude-deck-skills/issues"
+    "url": "https://github.com/othmane-droid/claude-deck-skills/issues"
   },
   "dependencies": {
     "pptxgenjs": "^3.12.0"

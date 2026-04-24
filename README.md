@@ -25,7 +25,7 @@ Temps total pour un deck COMEX complet : **15-20 minutes** au lieu de 2-3h.
 ## Install en 1 commande
 
 ```bash
-git clone https://github.com/aimakers/claude-deck-skills.git ~/.claude/skills/deck
+git clone https://github.com/othmane-droid/claude-deck-skills.git ~/.claude/skills/deck
 cd ~/.claude/skills/deck
 npm install
 cp charte-graphique.example.json charte-graphique.json
@@ -132,7 +132,7 @@ Le repo est MIT. Fork, modifie, utilise commercialement dans tes propres prestat
 - **Nouveau framework narratif** → PR sur `skills/deck-story/frameworks/`
 - **Nouveau layout visuel** → PR sur `skills/deck-build/scripts/layouts.js`
 - **Nouveau persona pour stress test** → PR sur `skills/deck-review/personas/`
-- **Bug ou question** → ouvre une [issue](https://github.com/aimakers/claude-deck-skills/issues)
+- **Bug ou question** → ouvre une [issue](https://github.com/othmane-droid/claude-deck-skills/issues)
 
 Voir [CONTRIBUTING.md](CONTRIBUTING.md) pour les guidelines.
 

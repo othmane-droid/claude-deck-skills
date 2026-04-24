@@ -33,7 +33,7 @@ Critères :
 
 ### 4. Bugs et améliorations
 
-Ouvre une [issue](https://github.com/aimakers/claude-deck-skills/issues) avec :
+Ouvre une [issue](https://github.com/othmane-droid/claude-deck-skills/issues) avec :
 - Contexte (version Node, OS, version Claude Code)
 - Étapes pour reproduire
 - Comportement attendu vs observé

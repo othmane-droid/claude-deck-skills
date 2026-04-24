@@ -9,7 +9,7 @@
 ## Étape 1 — Cloner le repo
 
 ```bash
-git clone https://github.com/aimakers/claude-deck-skills.git ~/.claude/skills/deck
+git clone https://github.com/othmane-droid/claude-deck-skills.git ~/.claude/skills/deck
 cd ~/.claude/skills/deck
 ```
 
