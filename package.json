@@ -1,0 +1,38 @@
+{
+  "name": "claude-deck-skills",
+  "version": "1.0.0",
+  "description": "3 skills Claude Code pour générer des présentations COMEX-ready en 15 minutes, à tes couleurs.",
+  "main": "skills/deck-build/scripts/generate-deck.js",
+  "scripts": {
+    "demo": "node examples/demo-comex.js",
+    "generate": "node skills/deck-build/scripts/generate-deck.js"
+  },
+  "keywords": [
+    "claude",
+    "claude-code",
+    "pptxgenjs",
+    "presentation",
+    "deck",
+    "comex",
+    "pitch-deck",
+    "powerpoint",
+    "automation",
+    "ai-makers"
+  ],
+  "author": "Othmane Halim <othmane@aimakers.fr> (https://aimakers.fr)",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/aimakers/claude-deck-skills.git"
+  },
+  "homepage": "https://github.com/aimakers/claude-deck-skills#readme",
+  "bugs": {
+    "url": "https://github.com/aimakers/claude-deck-skills/issues"
+  },
+  "dependencies": {
+    "pptxgenjs": "^3.12.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}

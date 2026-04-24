@@ -1,0 +1,47 @@
+{
+  "_comment": "Copie ce fichier en charte-graphique.json et édite avec tes propres valeurs. Les codes couleur sont en hex sans le #.",
+  "marque": "Ton Entreprise",
+  "site": "tonsite.com",
+  "slogan": "Ton slogan ici.",
+  "couleurs": {
+    "principale": "2563EB",
+    "deep": "1E40AF",
+    "electric": "3B82F6",
+    "ice": "DBEAFE",
+    "sky": "EFF6FF",
+    "noir_tech": "0F172A",
+    "slate_800": "1E293B",
+    "slate_600": "475569",
+    "slate_500": "64748B",
+    "slate_300": "CBD5E1",
+    "slate_100": "F1F5F9",
+    "slate_50": "F8FAFC",
+    "blanc": "FFFFFF",
+    "vert_succes": "10B981",
+    "or_premium": "CA8A04",
+    "orange_alerte": "F59E0B",
+    "rouge_erreur": "EF4444"
+  },
+  "polices": {
+    "principale": "Inter",
+    "fallback": "Arial",
+    "titre_poids": "bold",
+    "corps_poids": "regular",
+    "overline_poids": "semibold",
+    "overline_letter_spacing": 3
+  },
+  "logo": {
+    "chemin": "./assets/logo.png",
+    "chemin_blanc": "./assets/logo-blanc.png",
+    "largeur_cm": 2.5
+  },
+  "mots_a_bannir": [
+    "disruptif",
+    "révolutionnaire",
+    "innovant",
+    "synergies",
+    "game-changer",
+    "next-gen",
+    "fiers de présenter"
+  ]
+}

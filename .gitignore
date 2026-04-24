@@ -1,0 +1,18 @@
+node_modules/
+*.log
+.DS_Store
+.env
+.env.local
+
+# Charte perso (chaque user met la sienne, on commit seulement l'example)
+charte-graphique.json
+
+# Decks générés
+output/
+*.pptx
+!examples/*.pptx
+
+# Editors
+.vscode/
+.idea/
+*.swp
