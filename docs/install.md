@@ -73,6 +73,6 @@ Tester avec :
 
 ## Aller plus loin
 
-- Lire le [Playbook Deck AI-First](https://aimakers.fr/playbook-deck) pour les 14 tactiques niveau pro
+- Lire le [Playbook Deck AI-First](https://acute-licorice-d94.notion.site/Le-Playbook-Deck-AI-First-34cc2daa75c781fd8568cd21b285f03d) pour les 14 tactiques niveau pro
 - Fork le repo et ajoute tes propres layouts / frameworks / personas
 - Rejoindre l'équipe AI Makers : [cal.com/othmane-halim-5lo7uc/30min](https://cal.com/othmane-halim-5lo7uc/30min)

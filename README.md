@@ -6,6 +6,9 @@ Arrête de perdre 3h sur chaque deck investisseur / COMEX. Arrête d'envoyer des
 
 Par [AI Makers](https://aimakers.fr) — cabinet de transformation IA.
 
+> 📖 **Tu veux la méthode complète avant d'installer ?** Lis le playbook gratuit (25 min) :
+> 👉 **[Le Playbook Deck AI-First](https://acute-licorice-d94.notion.site/Le-Playbook-Deck-AI-First-34cc2daa75c781fd8568cd21b285f03d)** — les 10 prompts, les 14 tactiques niveau pro, la méthode d'injection de charte à 3 niveaux, la FAQ.
+
 ---
 
 ## Ce que ça fait
@@ -94,7 +97,7 @@ Chaque deck généré respectera tes couleurs, ta police, ton logo. Pas de "AI l
 
 ## Les 10 prompts COMEX-ready
 
-Le repo embarque aussi les 10 prompts testés du [Playbook Deck AI-First](https://aimakers.fr/playbook-deck) dans `skills/deck-story/prompts/` :
+Le repo embarque aussi les 10 prompts testés du [Playbook Deck AI-First](https://acute-licorice-d94.notion.site/Le-Playbook-Deck-AI-First-34cc2daa75c781fd8568cd21b285f03d) dans `skills/deck-story/prompts/` :
 
 1. Deck COMEX stratégique (Minto)
 2. Deck d'audit client (SCR)
@@ -140,7 +143,7 @@ Voir [CONTRIBUTING.md](CONTRIBUTING.md) pour les guidelines.
 
 ## Ressources
 
-- **Playbook complet** (25 min de lecture, gratuit) : [Le Playbook Deck AI-First](https://aimakers.fr/playbook-deck)
+- **Playbook complet** (25 min de lecture, gratuit) : [Le Playbook Deck AI-First](https://acute-licorice-d94.notion.site/Le-Playbook-Deck-AI-First-34cc2daa75c781fd8568cd21b285f03d)
 - **AI Makers** (cabinet de transformation IA) : [aimakers.fr](https://aimakers.fr)
 - **Claude Code** : [docs.anthropic.com/en/docs/claude-code](https://docs.anthropic.com/en/docs/claude-code)
 - **PptxGenJS** : [github.com/gitbrent/PptxGenJS](https://github.com/gitbrent/PptxGenJS)
